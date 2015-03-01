@@ -1,0 +1,238 @@
+
+*{
+	font-family: Open Sans;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+/*If I have this set already for the whole body, then why 
+do I have to keep going into specific sections and resetting
+this property?*/
+
+
+
+.nav_bar ul{
+	list-style: none;
+	background-color: #ed2124;
+	/*opacity: 0.85;*/
+	text-align: right;
+	padding:0;
+	margin: 0;
+	height: 40px;
+	font-size: 17px;
+	color: #ffffff;
+}
+/*opacity color looks different in photoshop for some reason*/
+
+
+
+.nav_bar li{
+	display: inline;
+	padding: 5px 10px;
+}
+/* How do I get the text in the nav_bar to be vertically 
+centered?*/
+
+
+
+
+/* .....
+.......
+........
+Header section! 
+........
+.....
+....
+*/
+
+
+
+
+.header{
+	text-align:center;
+
+}
+
+#header_text{
+	font-size:16px;
+}
+
+img{
+	width: 480px;
+	height: auto;
+	border:5px solid black;
+}
+
+
+#for_business_option p{
+	font-size: 13px;
+}
+
+
+
+
+/* .....
+............
+..........
+icon bar section!
+.............
+.........
+.....
+*/
+
+
+
+
+div.icon_bar{
+	background-color: #ed2124;
+}
+
+/*How do I push the div color (red bar spanning the icon bar) 
+down?*/
+
+.icon_bar ul li{
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	padding-top: 85px;
+	list-style-type:none;
+	background-color: #ffffff;
+}
+
+
+
+
+.icon_bar #icon{
+	display: inline-block;
+
+}
+
+
+/* ......
+............
+...........
+.......
+Features section!
+...........
+.............
+.........
+*/
+
+
+
+
+.Features h3{
+	text-align:center;
+	padding-bottom:25px;
+}
+
+.Features ul{
+	list-style-type: none;
+}
+
+
+
+ #feature_left{
+	margin-right: 55%;
+	margin-left:2%;
+}
+
+#feature_left li{
+	float:left;
+}
+
+#feature_right{
+	margin-left: 55%;
+	margin-right:2%;
+}
+/*is there some default margin on the right side that does 
+not exist on the left?*/
+
+
+
+/*is this step necessary?*/
+#feature_right li{
+	float:right;
+}
+
+#row_1 ul{
+	display:inline-block;
+}
+
+#row_2 ul{
+	display: inline-block;
+}
+
+#row_3 ul{
+	margin-left: 29%;
+	margin-right:29%;
+	padding-top:20px;
+}
+
+.Features p{
+	text-align:center;
+	font-size: 14px;
+}
+
+
+
+/*.......
+..............
+.........
+bottom nav bar!
+...........
+........
+...*/
+
+
+.bottom_nav_bar_1 ul{
+	padding:0px;
+	margin: 0px;
+	background-color: #ed2124;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+/* This lines up "About" all the way to the left*/
+
+
+.bottom_nav_bar_1 ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.bottom_nav_bar_2 ul{
+	padding: 0px;
+	margin: 0px;
+	background-color: #ed2124;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.bottom_nav_bar_2 ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 20px 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
