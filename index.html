@@ -3,8 +3,6 @@
 
 <head>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-
   <title>My Jott.ly Page</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -13,8 +11,11 @@
 
   <div class= "nav_bar">
     <ul>
-      <!--<div id="sign_up_button">--><li>Sign up Free</li> <!--</div>-->
-       <!--How do I make this button?-->
+      <!--<div id="sign_up_button">--><li>Sign up Free</li> 
+      <!--</div>-->
+      <!--How do I make this button?-->
+
+      <!-- there are numerous ways to handle this, but you will need to add anchor tags to each of these items before they will be able to trigger a link to anything. after that point we can discuss buttons or simply using classes to make a link look like a button -->
 
       <li>Log In</li>
       <li>Menu</li>
@@ -54,23 +55,20 @@
       
     <ul>
 
+    <!-- you can only use an ID tag once on a given page. here you have used the ID of icon four times. this should be a class instead -->
+
     <div id="icon"> 
       <li><strong>Create and document<br>your work</strong><br><br>Start a project! Begin<br>noting ideas, creating<br> drafts, work and <br>rework your ideas.</li>
     </div>
-
-
-  <div id="icon">   
-      <li><strong>Find experienced<br>Copywriters</strong><br><br>Find copywriters<br>that you want to<br>work with</li>
-   </div>
-
-  <div id="icon"> 
-      <li><strong>Collaborate with <br>others</strong><br><br>Work with other <br>individual members<br>of the community or<br>within a team</li>
-  </div>
-
-  <div id="icon"> 
-      <li><strong>Get Published</strong><br><br>Check out some of the<br>many publications made<br>with Jott.ly <a href="http://google.com" target="_blank">here</a></li>
-  </div>
-   
+    <div id="icon">   
+        <li><strong>Find experienced<br>Copywriters</strong><br><br>Find copywriters<br>that you want to<br>work with</li>
+     </div>
+    <div id="icon"> 
+        <li><strong>Collaborate with <br>others</strong><br><br>Work with other <br>individual members<br>of the community or<br>within a team</li>
+    </div>
+    <div id="icon"> 
+        <li><strong>Get Published</strong><br><br>Check out some of the<br>many publications made<br>with Jott.ly <a href="http://google.com" target="_blank">here</a></li>
+    </div>
     </ul>   
   </div>
 
@@ -81,18 +79,21 @@
       <h3>FEATURES</h3>
 
 
-  <div id= "row_1">
+  <div id="row_1">
     <ul>
-      <div id= "feature_left">
+    <!--What's with the you've apostrophe? Something's going on there.-->
+    
+    <!-- you have copied over this content from another source, that is what is producing the weird formatting -->
+
+
+    <div id="feature_left">
       <li><strong>AUTOSAVE</strong>
       <p>Jott.ly will autosave and store a version of your work at a customizable time interval, or upon command so that you can always go back and see the changes you’ve made during the process. Your work is archived and neatly organized in a way that allows you to highlight selected versions of a project for easy accessibility.</p></li>
     </div>
 
-      <!--What's with the you've apostrophe? Something's going on there.-->
-
-      <div id="feature_right">
+    <div id="feature_right">
        <li><strong>COLLABORATION</strong><p>Members of Jott.ly can invite other individuals or form teams that are all granted access to edit a document. Members will receive emails when their project is modified by a team member or they can choose to set up text notifications. </p></li>
-     </div>
+    </div>
 
 </ul>
 </div>
@@ -112,19 +113,21 @@
   <div id= "row_3">
     <ul>
       <li><strong>JOTT.LY FOR BUSINESSES</strong><p>Jott.ly can also be used internally for larger businesses. This allows branches to collaborate and communicate in the easiest, most effective way possible. This too, allows management to casually check up on different projects and allow an easy platform for quick feedback.</p></li>
-</div>
-      </ul>
+    </ul>
+  </div>
 
-   <br>
-   <br>
+  <!--   <br><br> -->
 
       <p>Check out a comparison of Jott.ly to competitor web applications, or just learn more about it <a href="http://google.com" target="_blank">here</a></p>
 
   </div>
 
-  <br><br>
+  <!-- <br><br> -->
 
-  <div class= "bottom_nav_bar_1">
+  <!-- anywhere you are using these <br> tags, just skip that. you want to keep all of your positioning of elements confined to CSS -->
+
+
+  <div class="bottom_nav_bar_1">
     <ul>
       <li>About</li>
       <li>How Jott.ly Works</li>
@@ -132,7 +135,7 @@
     </ul>
   </div>
 
-  <div class= "bottom_nav_bar_2">
+  <div class="bottom_nav_bar_2">
     <ul>
       <li>Contact Us</li>
       <li>FAQs</li>
