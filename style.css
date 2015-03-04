@@ -35,7 +35,11 @@ this property?*/
 /* How do I get the text in the nav_bar to be vertically 
 centered?*/
 
+.nav_bar a{
+	color: #ffffff;
+	text-decoration: none;
 
+}
 
 
 /* .....
@@ -46,7 +50,6 @@ Header section!
 .....
 ....
 */
-
 
 
 
@@ -70,6 +73,26 @@ img{
 	font-size: 13px;
 }
 
+.header a{
+	text-decoration:none;
+
+}
+
+/* I want the button to change color when I hover over it*/
+
+
+#main_sign_up_button{
+	width: 150px;
+	height: 50px;
+	background-color: #ed2124;
+	color: #ffffff;
+	border-radius: 7px;
+	margin: auto;
+	text-align: center;
+
+}
+
+/*how do i vertically align the text??*/
 
 
 
@@ -105,7 +128,7 @@ down?*/
 
 
 
-.icon_bar #icon{
+.icon_bar .icon{
 	display: inline-block;
 
 }
