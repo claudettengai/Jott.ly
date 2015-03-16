@@ -90,6 +90,8 @@ Header section!
 
 }
 
+.center { margin: 0 auto; }
+
 .fullwidth {
 	min-width: 100%;
 }
