@@ -52,6 +52,25 @@ This is because the two function slightly different from one another
 	color: #ffffff;
 }
 
+
+/*
+.nav_bar ul{
+	list-style: none;
+	background-color: #ed2124;
+	text-align: right;
+	padding:0;
+	margin: 0;
+	height: 40px;
+	font-size: 17px;
+	color: #ffffff;
+}
+*/
+
+
+
+
+
+
 /* How do I get the text in the nav_bar to be vertically 
 centered? */
 
@@ -82,12 +101,23 @@ Header section!
 
 .header {
 	text-align:center;
-	padding: 100px;
+	padding: 500px;
+	padding-bottom: 40px;
 	/*background-color: green;*/
 /*	background-image: url('img/fearfest.jpg');
 	background-size: cover;
 	background-position: center;*/
 
+
+
+	/* say if we added the background image below, how would be able to 
+	constrain the image to maintain the proportions when you change the screen
+	size?*/
+
+
+	background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
+	background-size: cover; 
+	background-position: center;
 }
 
 .fullwidth {
@@ -99,16 +129,20 @@ Header section!
 	margin: auto;
 }
 
+/*
 img{
 	width: 480px;
 	height: auto;
 	border:5px solid black;
-	margin: 15px;
-}
+	margin: auto; 
+	margin-bottom: 30px; ;
 
+}
+*/
 
 #for_business_option p{
 	font-size: 13px;
+	margin-top: 50px;
 }
 
 .header a{
@@ -123,16 +157,31 @@ This is pseudo-class action called :hover
 https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
 */
 
+.button.button-primary{
+	background-color: #ed2124;
+	border:none;
+
+}
+
+a{
+	color: #ed2124;
+}
+
+
 #main_sign_up_button{
 	width: 150px;
 	height: 50px;
 	background-color: #ed2124;
-	color: #ffffff;
 	border-radius: 7px;
 	margin: auto;
-	text-align: center;
-
 }
+
+#main_sign_up_button p{
+	text-align: center;
+	color: #ffffff;
+}
+
+
 
 /*how do i vertically align the text??*/
 
@@ -152,6 +201,7 @@ icon bar section!
 
 .icon_bar{
 	background-color: #ed2124;
+	margin-top: 0px;
 }
 
 /*
@@ -198,13 +248,23 @@ Features section!
 */
 
 
-
-
 .Features h3{
 	text-align:center;
-	padding-bottom:25px;
+	padding: 50px;
+	padding-bottom: 25px;
 }
 
+#comparison{
+	text-align: center;
+}
+
+
+.Features .container{
+	padding-bottom: 25px;
+}
+
+
+/*
 .Features ul{
 	list-style-type: none;
 }
@@ -233,7 +293,7 @@ not exist on the left?*/
 
 
 /*is this step necessary?*/
-#feature_right li{
+/*#feature_right li{
 	float:right;
 }
 
