@@ -3,15 +3,37 @@
 	font-family: Open Sans;
 }
 
-/* 
-If I have this set already for the whole body, then why 
-do I have to keep going into specific sections and resetting
-this property? 
-*/
+.working {
+	background: green;
+	width: 100%;
+	display: block;
+	float: left;
+}
 
-/*
-This is where a reset comes into play. we'll discuss resets during our call http://meyerweb.com/eric/tools/css/reset/
-*/
+.green {
+	background-color: yellow;
+	height: 200px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+
+.quarters {
+	width: 21%;
+	float: left;
+	margin: 2%;
+}
+
+/* Needed to set display to block to get that icon to finally center. duh. */
+
+.icon-skull {
+	width: 50%;
+	margin-top: -60px;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+
 
 body {
 	margin:0;
@@ -101,8 +123,8 @@ Header section!
 
 .header {
 	text-align:center;
-	padding: 500px;
-	padding-bottom: 40px;
+/*	padding: 200px;
+*/	padding-bottom: 40px;
 	/*background-color: green;*/
 /*	background-image: url('img/fearfest.jpg');
 	background-size: cover;
@@ -116,8 +138,9 @@ Header section!
 
 
 	background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
-	background-size: cover; 
-	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat; 
+	background-position:0 -200px;
 }
 
 .center { margin: 0 auto; }
@@ -213,17 +236,16 @@ down?
 
 /* Not sure I understand the phrasing. Let's discuss */
 
-.three.columns{
+.three.columns {
 	text-align: center;
 	/*height: 200px;
 	width: 200px;*/
-	border: 1px solid black;
-	padding-top: 85px;
+/*	border: 1px solid black;
+*/	padding-top: 85px;
 	list-style-type:none;
 	background-color: #ffffff;
 	/*float:left;*/
 	/*display: inline-block;*/
-	margin: 0;
 
 }
 
@@ -359,6 +381,13 @@ bottom nav bar!
 	padding: 0px 20px 10px 20px;
 }
 
+@media only screen and (max-width: 500px) {
+
+	.header {
+		background-position:0 200px;
+	}
+
+}
 
 
 
