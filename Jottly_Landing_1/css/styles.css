@@ -52,19 +52,16 @@ h1, h2, h3 {
 h1 {
 	font-size: 4em;
 	text-align: center;
+	margin-bottom: 3%;
+
+/*figure out how use fonts*/
+
 }
 
 
-
-/* opacity color looks different in photoshop for some reason */
-
-/*
-This is because the two function slightly different from one another 
-*/
-
 .nav_bar ul{
 	list-style: none;
-	background-color: #ed2124;
+	background-color: teal;
 	/*opacity: 0.85;*/
 	text-align: right;
 	padding:0;
@@ -75,28 +72,6 @@ This is because the two function slightly different from one another
 }
 
 
-/*
-.nav_bar ul{
-	list-style: none;
-	background-color: #ed2124;
-	text-align: right;
-	padding:0;
-	margin: 0;
-	height: 40px;
-	font-size: 17px;
-	color: #ffffff;
-}
-*/
-
-
-
-
-
-
-/* How do I get the text in the nav_bar to be vertically 
-centered? */
-
-/* Let's discuss why this might work, why it might not work and how we can make it work. It actually relies on your html structure. http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
 
 .nav_bar li{
 	display: inline;
@@ -123,51 +98,32 @@ Header section!
 
 .header {
 	text-align:center;
-/*	padding: 200px;
-*/	padding-bottom: 40px;
+	padding-top: 12.5%;
+	padding-bottom: 25%;
 	/*background-color: green;*/
 /*	background-image: url('img/fearfest.jpg');
 	background-size: cover;
 	background-position: center;*/
 
 
-
-	/* say if we added the background image below, how would be able to 
-	constrain the image to maintain the proportions when you change the screen
-	size?*/
-
-
 	background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat; 
-	background-position:0 -200px;
+	/*margin: auto;*/
+	/*background-position:0 -200px;*/
+	
 }
 
-.center { margin: 0 auto; }
+/*How do you scale the padding/ header section to be scale
+to the dimensions of the text?*/
 
-.fullwidth {
-	min-width: 100%;
-}
+/*Why does "div class = header" - */
 
-#header_text{
-	font-size:16px;
-	margin: auto;
-}
 
-/*
-img{
-	width: 480px;
-	height: auto;
-	border:5px solid black;
-	margin: auto; 
-	margin-bottom: 30px; ;
-
-}
-*/
 
 #for_business_option p{
 	font-size: 13px;
-	margin-top: 50px;
+	margin-top: 5%;
 }
 
 .header a{
@@ -187,11 +143,11 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
 	border:none;
 
 }
-
+/*
 a{
-	color: #ed2124;
+	color: #ffffff;
 }
-
+*/
 
 #main_sign_up_button{
 	width: 150px;
@@ -207,8 +163,11 @@ a{
 }
 
 
+/* I want to solve the problem of the text running into the background image
+by adding semi-transparent block behind the text- i don't think using z index
+is the way to go- maybe put the background as an image? using <divs> 
+then z-index- how do I scale it to follow the text though?/*
 
-/*how do i vertically align the text??*/
 
 
 
@@ -229,28 +188,41 @@ icon bar section!
 	margin-top: 0px;
 }
 
-/*
-How do I push the div color (red bar spanning the icon bar) 
-down?
-*/
 
-/* Not sure I understand the phrasing. Let's discuss */
+
+.icon{
+	position: absolute;
+	z-index: 2;
+}
+
 
 .three.columns {
 	text-align: center;
 	/*height: 200px;
 	width: 200px;*/
-/*	border: 1px solid black;
-*/	padding-top: 85px;
-	list-style-type:none;
+	/*border: 1px solid black;*/
+	padding-top: 85px;
+	margin-right:0px;
+	
 	background-color: #ffffff;
 	/*float:left;*/
 	/*display: inline-block;*/
 
+
 }
 
+/*
 .icon.container{
 	display: inline-block
+}*/
+
+.icon_bar_background{
+	height: 250px;
+	width: 100px;
+	background-color: #ed2124;
+	position: relative;
+	z-index: 1;
+
 }
 
 
@@ -276,6 +248,7 @@ Features section!
 	text-align:center;
 	padding: 50px;
 	padding-bottom: 25px;
+	/*position: absolute;*/
 }
 
 #comparison{
@@ -288,58 +261,6 @@ Features section!
 }
 
 
-/*
-.Features ul{
-	list-style-type: none;
-}
-
-
-
- #feature_left{
-	margin-right: 55%;
-	margin-left:2%;
-}
-
-#feature_left li{
-	float:left;
-}
-
-#feature_right{
-	margin-left: 55%;
-	margin-right:2%;
-}
-
-/*is there some default margin on the right side that does 
-not exist on the left?*/
-
-/* possibly. let's use inspect element to see */ 
-
-
-
-/*is this step necessary?*/
-/*#feature_right li{
-	float:right;
-}
-
-#row_1 ul{
-	display:inline-block;
-}
-
-#row_2 ul{
-	display: inline-block;
-}
-
-#row_3 ul{
-	margin-left: 29%;
-	margin-right:29%;
-	padding-top:20px;
-}
-
-.Features p{
-	text-align:center;
-	font-size: 14px;
-}
-
 
 
 /*.......
@@ -349,6 +270,8 @@ bottom nav bar!
 ...........
 ........
 ...*/
+
+
 
 
 .bottom_nav_bar_1 ul{
@@ -380,6 +303,11 @@ bottom nav bar!
 	display: inline-block;
 	padding: 0px 20px 10px 20px;
 }
+
+
+@media only screen and (max-width:)
+
+
 
 @media only screen and (max-width: 500px) {
 
