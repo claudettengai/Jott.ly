@@ -12,7 +12,6 @@
 
 .green {
 	background-color: yellow;
-	height: 200px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 
@@ -94,24 +93,21 @@ Header section!
 ....
 */
 
+.overlay {
+	background-color: rgba(255,255,255,.8);
+}
 
+.header_text {
+	padding: 50px 0;
+}
 
 .header {
 	text-align:center;
-	padding-top: 12.5%;
-	padding-bottom: 25%;
-	/*background-color: green;*/
-/*	background-image: url('img/fearfest.jpg');
-	background-size: cover;
-	background-position: center;*/
-
-
 	background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
 	background-size: 100%;
-	background-repeat: no-repeat; 
-	/*margin: auto;*/
-	/*background-position:0 -200px;*/
-	
+	background-repeat: no-repeat;
+	background-position: 0, -50px;
+	height: 550px; 
 }
 
 /*How do you scale the padding/ header section to be scale
@@ -187,8 +183,6 @@ icon bar section!
 	background-color: #ed2124;
 	margin-top: 0px;
 }
-
-
 
 .icon{
 	position: absolute;
@@ -304,18 +298,46 @@ bottom nav bar!
 	padding: 0px 20px 10px 20px;
 }
 
-
-@media only screen and (max-width:)
-
-
-
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 800px) {
 
 	.header {
-		background-position:0 200px;
+		text-align:center;
+		background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
+		background-size: 140%;
+		background-repeat: no-repeat;
+		background-position: -125px 110px;
+		height: 550px; 
 	}
 
 }
+
+@media only screen and (max-width: 550px) {
+
+	.header_text {
+		padding: 50px 0;
+	}
+
+	.header {
+		text-align:center;
+		background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
+		background-size: 120%;
+		background-repeat: no-repeat;
+		background-position: -45px 250px;
+		height: 550px; 
+	}
+
+	#for_business_option {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.icon{
+	position: relative;
+	z-index: 2;
+}
+
+
+}*/
 
 
 
