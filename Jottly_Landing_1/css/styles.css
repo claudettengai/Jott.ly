@@ -3,7 +3,7 @@
 	font-family: Open Sans;
 }
 
-.working {
+/*.working {
 	background: green;
 	width: 100%;
 	display: block;
@@ -22,17 +22,10 @@
 	width: 21%;
 	float: left;
 	margin: 2%;
-}
+}*/
 
 /* Needed to set display to block to get that icon to finally center. duh. */
 
-.icon-skull {
-	width: 50%;
-	margin-top: -60px;
-	margin-left: auto;
-    margin-right: auto;
-	display: block;
-}
 
 
 body {
@@ -88,7 +81,7 @@ h1 {
 /* .....
 .......
 ........
-Header section! 
+Header secton! 
 ........
 .....
 ....
@@ -193,6 +186,9 @@ icon bar section!
 .icon{
 	position: absolute;
 	z-index: 2;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 
@@ -200,13 +196,13 @@ icon bar section!
 	text-align: center;
 	/*height: 200px;
 	width: 200px;*/
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	padding-top: 85px;
-	margin-right:0px;
 	
 	background-color: #ffffff;
 	/*float:left;*/
 	/*display: inline-block;*/
+	margin: 0px;
 
 
 }
@@ -223,6 +219,17 @@ icon bar section!
 	position: relative;
 	z-index: 1;
 
+}
+
+
+.icon-picture {
+	width: 50%;
+	margin-top: -150px;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	background-color: #ffffff;
+	border-radius: 10px;
 }
 
 
@@ -316,6 +323,9 @@ bottom nav bar!
 	}
 
 }
+
+
+
 
 
 
