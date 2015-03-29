@@ -86,9 +86,9 @@ Header secton!
 ....
 */
 
-.overlay {
+/*.overlay {
 	background-color: rgba(255,255,255,.8);
-}
+}*/
 
 .header_text {
 	padding: 50px 0;
@@ -128,7 +128,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
 */
 
 .button.button-primary{
-	background-color: #ed2124;
+	background-color: #FFAD33;
 	border:none;
 
 }
@@ -172,15 +172,15 @@ icon bar section!
 
 
 
-.icon_bar{
+/*.icon_bar{
 	background-color: #ed2124;
 	margin-top: 0px;
-}
+}*/
 
 .icon{
 	position: absolute;
 	z-index: 2;
-	margin-left: auto;
+	margin-left: 12%;
 	margin-right: auto;
 
 }
@@ -208,7 +208,7 @@ icon bar section!
 
 .icon_bar_background{
 	height: 250px;
-	width: 100px;
+	width: 100%;
 	background-color: #ed2124;
 	position: relative;
 	z-index: 1;
@@ -305,8 +305,9 @@ bottom nav bar!
 	padding: 0px 20px 10px 20px;
 }
 
-/*@media only screen and (max-width: 800px) {
 
+/*tablet*/
+@media only screen and (max-width: 800px) {
 	.header {
 		text-align:center;
 		background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
@@ -318,6 +319,8 @@ bottom nav bar!
 
 }
 
+
+/*mobile*/
 @media only screen and (max-width: 550px) {
 
 	.header_text {
@@ -341,10 +344,24 @@ bottom nav bar!
 	.icon{
 	position: relative;
 	z-index: 2;
+	margin: auto;
+
 }
 
+	.icon-picture{
+		width: 15%;
+		margin-top: -70px;
+	}
 
-}*/
+	.three.columns{
+		margin: 30px 15px 0px 15px;
+
+	}
+
+	.icon_bar_background{
+		width: 100%;
+		height: 900px;
+	}
 
 
 
