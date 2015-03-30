@@ -291,14 +291,31 @@ bottom nav bar!
 
 
 
+
+/*.......
+..............
+.........
+media queries
+...........
+........
+...*/
+
+
+
+
+
+
+
+
+
 /*tablet*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 650px) {
 	.header {
 		text-align:center;
 		background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
 		background-size: 140%;
 		background-repeat: no-repeat;
-		background-position: -125px 30px;
+		background-position: -125px 150px;
 		height: 550px; 
 	}
 
@@ -306,8 +323,50 @@ bottom nav bar!
 }
 
 
+@media only screen and (min-width: 651px) and (max-width: 730px){
+	.header{
+		background-position: -50px 130px;
+		background-size: 115%;
+	}
+}
+
+@media only screen and (min-width: 731px) and (max-width: 850px){
+
+	.header{
+		background-position: -50px 60px;
+		background-size: 110%;
+		height: 590px;
+
+	}
+}
+
+
+@media only screen and (min-width: 851px) and (max-width: 1000px){
+
+	.header{
+		background-position: -25px 80px;
+		background-size: 105%;
+		height: 620px;
+
+	}
+
+
+	.header_text {
+		padding: 100px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 /*mobile*/
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 485px) {
 
 	.header_text {
 		padding: 50px 0;
@@ -324,7 +383,7 @@ bottom nav bar!
 
 	#for_business_option {
 		width: 50%;
-		margin: 0 auto;
+		margin: 0 26%;
 	}
 
 	.icon{
@@ -340,13 +399,74 @@ bottom nav bar!
 	}
 
 	.three.columns{
-		margin: 30px 15px 0px 15px;
+		margin: 15px 15px 0px 15px;
 
 	}
 
 	.icon_bar_background{
 		width: 100%;
-		height: 900px;
+		height: 820px;
+	}
+}
+
+
+
+
+@media only screen and (min-width: 486px) and (max-width: 549px){
+
+
+	.header {
+		text-align:center;
+		background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
+		background-size: 135%;
+		background-repeat: no-repeat;
+		background-position: -90px 150px;
+		height: 550px; 
+	}
+
+
+	.six.offset-by-three p{
+		width: 70%;
+		text-align: center;
+		margin-left: 15%;
+		margin-top: 5px;
+	}
+
+
+	#for_business_option {
+		width: 60%;
+		margin: 0 20%;
+	}
+
+
+	h6{
+		margin: 0px;
+	}
+
+	h1{
+		margin-bottom: 0px;
+	}
+
+	.icon{
+	position: relative;
+	z-index: 2;
+	margin: auto;
+
+}
+
+	.icon-picture{
+		width: 15%;
+		margin-top: -70px;
+	}
+
+	.three.columns{
+		margin: 15px 15px 0px 15px;
+
+	}
+
+	.icon_bar_background{
+		width: 100%;
+		height: 830px;
 	}
 }
 
@@ -354,15 +474,19 @@ bottom nav bar!
 
 
 
-@media only screen and (min-width: 800px) {
-	}
+
+
+
+
+
+
 
 
 
 @media only screen and (min-width: 1000px) {
 	.header{
 		height: 680px;
-		background-position: 0 40px;
+		background-position: 0 55px;
 	}
 
 	.header_text{
@@ -402,18 +526,22 @@ bottom nav bar!
 
 
 	h6{
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 
 
 	#main_sign_up_button{
 		margin-bottom: 35px;
-		margin-top: 30px;
+		margin-top: 35px;
 	}
 
 	.h1{
 		margin-bottom: 2%;
 	}
+
+
+
+
 
 }
 
@@ -427,13 +555,13 @@ bottom nav bar!
 
 
 	h6{
-		margin-bottom: 15px;
+		margin-bottom: 30px;
 	}
 
 
 	#main_sign_up_button{
-		margin-bottom: 35px;
-		margin-top: 30px;
+		margin-bottom: 40px;
+		margin-top: 35px;
 	}
 
 
@@ -443,7 +571,10 @@ bottom nav bar!
 	}
 
 	
-	.six.columns{ 
+
+
+
+	.header.six.columns{ 
 		width: 53%;            
 	}
 
@@ -453,9 +584,6 @@ bottom nav bar!
 	}
 
 
-	.offset-by-three.columns{ 
-	margin-left: 24%;            
-}
 
 }
 
