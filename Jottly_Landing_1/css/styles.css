@@ -23,9 +23,6 @@
 	margin: 2%;
 }*/
 
-/* Needed to set display to block to get that icon to finally center. duh. */
-
-
 
 body {
 	margin:0;
@@ -100,13 +97,18 @@ Header secton!
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0, -50px;
-	height: 550px; 
+
+
+
+
+	height: 550px;
+
+
 }
 
-/*How do you scale the padding/ header section to be scale
-to the dimensions of the text?*/
-
-/*Why does "div class = header" - */
+/*.offset-by-three.columns{ 
+	margin-left: 28%;            
+}*/
 
 
 
@@ -152,13 +154,6 @@ a{
 }
 
 
-/* I want to solve the problem of the text running into the background image
-by adding semi-transparent block behind the text- i don't think using z index
-is the way to go- maybe put the background as an image? using <divs> 
-then z-index- how do I scale it to follow the text though?/*
-
-
-
 
 /* .....
 ............
@@ -172,16 +167,11 @@ icon bar section!
 
 
 
-/*.icon_bar{
-	background-color: #ed2124;
-	margin-top: 0px;
-}*/
-
 .icon{
 	position: absolute;
 	z-index: 2;
 	margin-left: 12%;
-	margin-right: auto;
+	/*margin-right: auto;*/
 
 }
 
@@ -198,13 +188,8 @@ icon bar section!
 	/*display: inline-block;*/
 	margin: 0px;
 
-
 }
 
-/*
-.icon.container{
-	display: inline-block
-}*/
 
 .icon_bar_background{
 	height: 250px;
@@ -218,20 +203,16 @@ icon bar section!
 
 .icon-picture {
 	width: 50%;
-	margin-top: -150px;
+	margin-top: -130px;
 	margin-left: auto;
     margin-right: auto;
 	display: block;
 	background-color: #ffffff;
 	border-radius: 10px;
-}
-
-
-
-/*.icon{
-	float:left;
 
 }
+
+
 
 
 /* ......
@@ -306,6 +287,10 @@ bottom nav bar!
 }
 
 
+
+
+
+
 /*tablet*/
 @media only screen and (max-width: 800px) {
 	.header {
@@ -313,9 +298,10 @@ bottom nav bar!
 		background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
 		background-size: 140%;
 		background-repeat: no-repeat;
-		background-position: -125px 110px;
+		background-position: -125px 30px;
 		height: 550px; 
 	}
+
 
 }
 
@@ -362,19 +348,115 @@ bottom nav bar!
 		width: 100%;
 		height: 900px;
 	}
+}
 
 
 
 
 
+@media only screen and (min-width: 800px) {
+	}
 
 
 
+@media only screen and (min-width: 1000px) {
+	.header{
+		height: 680px;
+		background-position: 0 40px;
+	}
+
+	.header_text{
+		padding-top: 10%;
+	}
+
+	.offset-by-three.columns{ 
+	margin-left: 28%;            
+}
+
+}
+
+
+@media only screen and (min-width: 1100px) {
+	
+
+	.header{
+		background-position: 0 20px;
+	}
+
+
+	.header_text{
+		margin-top: ;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+	.header{
+		height: 770px;
+		background-position: 0 10px;
+	}
+
+	.header_text{
+		padding-top: 11%;
+	}
+
+
+	h6{
+		margin-bottom: 10px;
+	}
+
+
+	#main_sign_up_button{
+		margin-bottom: 35px;
+		margin-top: 30px;
+	}
+
+	.h1{
+		margin-bottom: 2%;
+	}
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+
+	.header{
+		height: 800px;
+		background-position: 0 5px;
+	}
+
+
+	h6{
+		margin-bottom: 15px;
+	}
+
+
+	#main_sign_up_button{
+		margin-bottom: 35px;
+		margin-top: 30px;
+	}
 
 
 
+	h1{
+		margin-bottom: 2%;
+	}
+
+	
+	.six.columns{ 
+		width: 53%;            
+	}
+
+	.header_text{
+		text-align: center;
+		padding-top: 11.7%;
+	}
 
 
+	.offset-by-three.columns{ 
+	margin-left: 24%;            
+}
 
+}
 
 
