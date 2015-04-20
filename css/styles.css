@@ -53,6 +53,11 @@ p{
 
 }
 
+h6{
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
 
 
 #topspace{
@@ -157,9 +162,11 @@ Header secton!
 }
 
 
-.btn.button-primary{
+.btn.button-primary,
+.btn.button-primary:focus {
 	background-color: orange;
 	border:2px solid orange;
+	color: #fff;
 
 
 }
@@ -233,12 +240,19 @@ icon bar section!
 .icon_bar_background{
 	height: 250px;
 	width: 100%;
-	/*background-color: rgba(255,165,0,.);*/
-	/*background-color: #c0c0c0;*/
+	/*background-color: rgba(0,139,139,.2);*/
+	background-color: #c0c0c0;
+/*	background-color: orange;*/
 	position: relative;
 	z-index: 1;
 /*	padding-top: 100px;*/
 
+}
+
+@media only screen and (max-width: 550px){
+	.icon_bar_background{
+		background-color: orange;
+	}
 }
 
 
@@ -328,7 +342,8 @@ Features section!
 	
 	.check_mark {
 		margin:auto;
-		margin-right: 20px;
+		margin-right: .5em;
+		margin-left: 1em;
 		height: 70px;
 	}
 
@@ -349,7 +364,8 @@ Features section!
 
 	.check_mark_last{
 		margin: auto;
-		margin-right: 20px;
+		margin-right: .5em;
+		margin-left: 1em;
 		height: 70px;
 
 	}
@@ -358,10 +374,14 @@ Features section!
 @media only screen and (max-width: 550px) {
 	.check_mark{
 		height:40px;
+		margin-left: 1em;
+		margin-right:.5em;
 	}
 
 	.check_mark_last{
 		height:40px;
+		margin-left: 1em;
+		margin-right: .5em;
 	}
 }
 
@@ -405,6 +425,7 @@ media queries
 	.bottom.nav_bar ul{
 		height:100%;
 		text-align: left;
+		font-size: .7em;
 	}
 
 }
