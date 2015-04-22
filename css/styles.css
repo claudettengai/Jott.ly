@@ -53,12 +53,17 @@ p{
 
 }
 
+
+
 h6{
 	font-size: 1.2em;
 	font-weight: 600;
 }
 
 
+h5{
+	font-size: 1.3em;
+}
 
 #topspace{
 	width:100%;
@@ -84,6 +89,9 @@ h6{
 	border-bottom: 2px solid teal;*/
 }
 
+.nav_bar{
+	background-color: orange;
+}
 
 
 .nav_bar li{
@@ -100,6 +108,14 @@ h6{
 
 }
 
+#logo{
+	position: relative;
+	float: left;
+	height: 45px;
+	margin-left: 1em;
+	margin-top: -.3em;
+
+}
 
 
 
@@ -283,6 +299,8 @@ icon bar section!
 
 
 
+
+
 /* ......
 ............
 ...........
@@ -337,6 +355,15 @@ Features section!
 	height: 50px;
 }
 
+
+
+.submit_email p{
+	text-align: center;
+	font-weight: bold;
+/*	color: orange;*/
+	margin-top: 2em;
+
+}
 
 @media only screen and (max-width: 900px) {
 	
