@@ -1,0 +1,766 @@
+
+* {
+	font-family: Open Sans;
+}
+
+/*.working {
+	background: green;
+	width: 100%;
+	display: block;
+	float: left;
+}
+
+.green {
+	background-color: yellow;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+
+.quarters {
+	width: 21%;
+	float: left;
+	margin: 2%;
+}*/
+
+
+body {
+	margin:0;
+	padding:0;
+}
+
+/* Typography */
+
+h1, h2, h3 {
+	font-size: 1.5em;
+	font-family: Helvetica, serif;
+	font-weight: bold;
+	text-align: left;
+	color: #404040;
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	margin-bottom: 3%;
+
+/*figure out how use fonts*/
+
+}
+
+p{
+	color: #404040;
+
+}
+
+
+
+h6{
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+
+h5{
+	font-size: 1.3em;
+}
+
+#topspace{
+	width:100%;
+	height:.7em;
+/*	background-color: rgba(255, 153, 0, 1);*/
+/*	border-top: 2px solid teal;*/
+	background-color: orange;
+}
+
+
+.nav_bar ul{
+	list-style: none;
+	/*background-color: rgba(255,153,0, .7);*/
+	background-color: orange;
+	text-align: right;
+	padding:0;
+	padding-top: .5em;
+	margin: 0;
+	height: 40px;
+	font-size: 14px;
+	font-weight: 550;
+/*
+	border-bottom: 2px solid teal;*/
+}
+
+.nav_bar{
+	background-color: orange;
+}
+
+
+.nav_bar li{
+	display: inline;
+}
+
+.nav_bar a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0.5em 1.5em 0.5em 1.5em;
+
+
+}
+
+#logo{
+	position: relative;
+	float: left;
+	height: 45px;
+	margin-left: 1em;
+	margin-top: -.3em;
+
+}
+
+
+
+.btn.sign{
+	border:2px solid #fff;
+	border-radius: 8px;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: orange;
+	/*border: 2px solid orange;*/
+}
+
+
+/* .....
+.......
+........
+Header secton! 
+........
+.....
+....
+*/
+
+/*.overlay {
+	background-color: rgba(255,255,255,.8);
+}*/
+
+.header_text {
+	padding: 50px 0;
+}
+
+.header {
+	text-align:center;
+	background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 0, -50px;
+}
+
+
+
+
+}
+
+/*.offset-by-three.columns{ 
+	margin-left: 28%;            
+}*/
+
+
+
+#for_business_option p{
+	font-size: 13px;
+	margin-top: 5%;
+}
+
+.header a{
+	text-decoration:none;
+
+}
+
+
+.btn.button-primary,
+.btn.button-primary:focus {
+	background-color: orange;
+	border:2px solid orange;
+	color: #fff;
+
+
+}
+
+.btn.button-primary:hover{
+	background-color: #fff;
+	color: orange;
+	border: 2px solid orange;
+
+}
+
+
+
+/*
+a{
+	color: #ffffff;
+}
+*/
+/*
+#main_sign_up_button{
+	width: 150px;
+	height: 50px;
+	background-color: #ed2124;
+	border-radius: 7px;
+	margin: auto;
+}
+
+#main_sign_up_button p{
+	text-align: center;
+	color: #ffffff;
+}
+*/
+
+
+/* .....
+............
+..........
+icon bar section!
+.............
+.........
+.....
+*/
+
+
+
+
+.icon{
+	position: absolute;
+	z-index: 2;
+	margin-left: 12%;
+	/*margin-right: auto;*/
+
+}
+
+
+.three.columns {
+	text-align: center;
+	/*height: 200px;
+	width: 200px;*/
+	border: 1px solid black;
+	padding-top: 85px;
+	
+	background-color: #ffffff;
+	/*float:left;*/
+	/*display: inline-block;*/
+	margin: 0px;
+
+}
+
+
+.icon_bar_background{
+	height: 250px;
+	width: 100%;
+	/*background-color: rgba(0,139,139,.2);*/
+	background-color: #c0c0c0;
+/*	background-color: orange;*/
+	position: relative;
+	z-index: 1;
+/*	padding-top: 100px;*/
+
+}
+
+@media only screen and (max-width: 550px){
+	.icon_bar_background{
+		background-color: orange;
+	}
+}
+
+
+.icon-picture {
+	width: 50%;
+	margin-top: -130px;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	background-color: #ffffff;
+	border-radius: 10px;
+
+}
+
+/*.icon_picture1 {
+ 	width: 80%;
+ 	margin-left:auto;
+ 	margin-right:auto;
+ 	margin-top: -70px;
+ 	height: 150px;
+ 	background-image: url(../../img/noun_14842_cc.png);
+ 	background-size: cover;
+ 	background-color: white;
+ 	border-radius: 20%;
+ 	margin-bottom: 20px;
+ }
+*/
+
+
+
+
+
+/* ......
+............
+...........
+.......
+Features section!
+...........
+.............
+.........
+*/
+
+
+.Features h3{
+	text-align:center;
+	padding: 50px;
+	padding-bottom: 25px;
+	/*position: absolute;*/
+}
+
+#comparison{
+	text-align: center;
+}
+
+
+.Features .container{
+	padding-bottom: 25px;
+	margin: auto;
+	width: 100%;
+}
+
+.check_mark{
+	display: inline-block;
+	float: left;
+	height: 50px;
+
+
+}
+
+.five.columns{
+	margin-left: 10px;
+	margin-right: 4%;
+}
+
+.five.columns.last{
+	width: 40%;
+	margin-right:auto;
+}
+
+.check_mark_last{
+	margin-left: 30%;
+	display: inline-block;
+	float: left;
+	height: 50px;
+}
+
+
+
+.submit_email p{
+	text-align: center;
+	font-weight: bold;
+/*	color: orange;*/
+	margin-top: 2em;
+
+}
+
+@media only screen and (max-width: 900px) {
+	
+	.check_mark {
+		margin:auto;
+		margin-right: .5em;
+		margin-left: 1em;
+		height: 70px;
+	}
+
+	.five.columns{
+		width:80%;
+		margin-right: auto;
+	}
+
+	.Features .container{
+		padding-bottom:0;
+	}
+
+
+	.five.columns.last{
+		width: 80%;
+		
+	}
+
+	.check_mark_last{
+		margin: auto;
+		margin-right: .5em;
+		margin-left: 1em;
+		height: 70px;
+
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.check_mark{
+		height:40px;
+		margin-left: 1em;
+		margin-right:.5em;
+	}
+
+	.check_mark_last{
+		height:40px;
+		margin-left: 1em;
+		margin-right: .5em;
+	}
+}
+
+
+
+/*.......
+..............
+.........
+bottom nav bar!
+...........
+........
+...*/
+
+
+.bottom.nav_bar ul{
+	text-align: center;
+	padding-top: 1.5em;
+	padding-bottom:.5em;
+}
+
+
+
+
+
+
+
+/*.......
+..............
+.........
+media queries
+...........
+........
+...*/
+
+
+@media only screen and (max-width:720px){
+	.bottom.nav_bar li{
+		display: inline-block;
+	}
+
+	.bottom.nav_bar ul{
+		height:100%;
+		text-align: left;
+		font-size: .7em;
+	}
+
+}
+
+
+
+
+
+
+
+
+/*tablet*/
+@media only screen and (max-width: 650px) {
+	.header {
+		text-align:center;
+		background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
+		background-size: 140%;
+		background-repeat: no-repeat;
+		background-position: -125px 150px;
+		height: 550px; 
+	}
+
+
+}
+
+
+@media only screen and (min-width: 651px) and (max-width: 730px){
+	.header{
+		background-position: -50px 130px;
+		background-size: 115%;
+	}
+}
+
+@media only screen and (min-width: 731px) and (max-width: 850px){
+
+	.header{
+		background-position: -50px 60px;
+		background-size: 110%;
+		height: 590px;
+
+	}
+}
+
+
+@media only screen and (min-width: 851px) and (max-width: 1000px){
+
+	.header{
+		background-position: -25px 80px;
+		background-size: 105%;
+		height: 620px;
+
+	}
+
+
+	.header_text {
+		padding: 100px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/*mobile*/
+@media only screen and (max-width: 485px) {
+
+	.header_text {
+		padding: 50px 0;
+	}
+
+	.header {
+		text-align:center;
+		background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
+		background-size: 120%;
+		background-repeat: no-repeat;
+		background-position: -45px 250px;
+		height: 550px; 
+	}
+
+	#for_business_option {
+		width: 50%;
+		margin: 0 26%;
+	}
+
+	.icon{
+		position: relative;
+		z-index: 2;
+		margin: auto;
+
+}
+
+	.icon-picture{
+		width: 15%;
+		margin-top: -70px;
+	}
+
+	.three.columns{
+		/*margin: 15px 15px 0px 15px;*/
+		width:90%;
+		height: 80%;
+		margin: 5% 5% 0 5%;
+
+	}
+
+	.icon_bar_background{
+		width: 100%;
+		height: 835px;
+	}
+
+	.submit_email .u-full-width{
+		width: 80%;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+
+	.submit_email button {
+		width: 50%;
+		margin-left: 25%;
+	}
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 486px) and (max-width: 549px){
+
+
+	.header {
+		text-align:center;
+		background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
+		background-size: 135%;
+		background-repeat: no-repeat;
+		background-position: -90px 150px;
+		height: 550px; 
+	}
+
+
+	.six.offset-by-three p{
+		width: 70%;
+		text-align: center;
+		margin-left: 15%;
+		margin-top: 5px;
+	}
+
+
+	#for_business_option {
+		width: 60%;
+		margin: 0 20%;
+	}
+
+
+	h6{
+		margin: 0px;
+	}
+
+	h1{
+		margin-bottom: 0px;
+	}
+
+	.icon{
+	position: relative;
+	z-index: 2;
+	margin: auto;
+
+}
+
+	.icon-picture{
+		width: 15%;
+		margin-top: -70px;
+	}
+
+	.three.columns{
+		width:90%;
+		height: 80%;
+		margin: 5% 5% 0 5%;
+
+	}
+
+	.icon_bar_background{
+		width: 100%;
+		height: 870px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+	.header{
+		height: 680px;
+		background-position: 0 55px;
+	}
+
+	.header_text{
+		padding-top: 10%;
+	}
+
+	.offset-by-three.columns{ 
+	margin-left: 28%;            
+}
+
+}
+
+
+@media only screen and (min-width: 1100px) {
+	
+
+	.header{
+		background-position: 0 20px;
+	}
+
+
+	.header_text{
+		margin-top: ;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) {
+	.header{
+		height: 770px;
+		background-position: 0 10px;
+	}
+
+	.header_text{
+		padding-top: 11%;
+	}
+
+
+	h6{
+		margin-bottom: 20px;
+	}
+
+
+	#main_sign_up_button{
+		margin-bottom: 35px;
+		margin-top: 35px;
+	}
+
+	.h1{
+		margin-bottom: 2%;
+	}
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+
+	.header{
+		height: 800px;
+		background-position: 0 5px;
+	}
+
+
+	h6{
+		margin-bottom: 30px;
+	}
+
+
+	#main_sign_up_button{
+		margin-bottom: 40px;
+		margin-top: 35px;
+	}
+
+
+
+	h1{
+		margin-bottom: 2%;
+	}
+
+	
+
+
+
+	.header.six.columns{ 
+		width: 53%;            
+	}
+
+	.header_text{
+		text-align: center;
+		padding-top: 11.7%;
+	}
+
+
+
+}
+
+
