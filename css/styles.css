@@ -150,7 +150,7 @@ Header secton!
 
 .header {
 	text-align:center;
-	background-image: url(http://img.fciencias.com/uploads/2014/01/04-Book-Wallpaper-%C3%A9-ao-Domingo.jpg);
+	background-image: url("../img/Book_Wallpaper.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: 0, -50px;
